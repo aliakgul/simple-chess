@@ -1,0 +1,29 @@
+{
+  "name": "simple-chess-server",
+  "version": "0.0.1",
+  "description": "Server of Simple Chess Web Game",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev --respawn src/index.ts",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "github.com/aliakgul",
+  "license": "ISC",
+  "dependencies": {
+    "chess.js": "^0.12.0",
+    "express": "^4.17.1",
+    "socket.io": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/chess.js": "^0.11.2",
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.7.13",
+    "@types/nodemon": "^1.19.1",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.2.1",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.2"
+  }
+}
